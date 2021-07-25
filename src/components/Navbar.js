@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useQuery } from "react-query";
 import styled from "styled-components/macro";
 import { getGithubUser } from "../api";
+import { setIcon } from "../utils/favicon.js";
 import {
   faFacebook,
   faGithub,
@@ -44,15 +45,8 @@ function NavbarStyled() {
   );
 
   useEffect(() => {
-    //Setting favicon dynamically
-    if (data) {
-      let link = document.querySelector("link[rel~='icon']");
-      if (!link) {
-        link = document.createElement("link");
-        link.rel = "icon";
-        document.getElementsByTagName("head")[0].appendChild(link);
-      }
-      link.href = data.avatar_url;
+    if (data?.avatar_url) {
+      setIcon(data.avatar_url);
     }
   }, [data]);
 
