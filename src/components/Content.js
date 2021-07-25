@@ -20,6 +20,7 @@ const Content = styled.main`
 
   a {
     text-decoration: none;
+    color: white;
   }
 `;
 
@@ -48,18 +49,32 @@ const Card = styled.div`
 function ContentStyled() {
   return (
     <Content>
-      <Card>
-        <span className="title">
-          <FontAwesomeIcon icon={faMedium} /> What I do
-        </span>
-        <span>I develop web and stuff, Blog writer at Medium.com</span>
-      </Card>
-      <Card>
-        <span className="title">
-          <FontAwesomeIcon icon={faGithub} /> GitHub activities
-        </span>
-        <span>[22/7/2021] Created new branch on littleboycoding/raindrop</span>
-      </Card>
+      <a
+        href="https://littleboycoding.medium.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Card>
+          <span className="title">
+            <FontAwesomeIcon icon={faMedium} /> What I do
+          </span>
+          <span>I develop web and stuff, Blog writer at Medium.com</span>
+        </Card>
+      </a>
+      <a
+        href="https://github.com/littleboycoding"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Card>
+          <span className="title">
+            <FontAwesomeIcon icon={faGithub} /> GitHub activities
+          </span>
+          <span>
+            [22/7/2021] Created new branch on littleboycoding/raindrop
+          </span>
+        </Card>
+      </a>
       <a href="mailto:littleboycoding@gmail.com">
         <Card>
           <span className="title">

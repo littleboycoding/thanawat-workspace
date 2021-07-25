@@ -64,13 +64,25 @@ function NavbarStyled() {
       <img src={data.avatar_url} alt="avatar" className="avatar" />
       <big>{data.name}</big>
       <span>Happy developer</span>
-      <a target="_blank" href="https://github.com/littleboycoding">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/littleboycoding"
+      >
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a target="_blank" href="https://facebook.com/littleboycoding">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://facebook.com/littleboycoding"
+      >
         <FontAwesomeIcon icon={faFacebook} />
       </a>
-      <a target="_blank" href="https://littleboycoding.medium.com/">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://littleboycoding.medium.com/"
+      >
         <FontAwesomeIcon icon={faMedium} />
       </a>
     </Navbar>
