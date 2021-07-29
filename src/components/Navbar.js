@@ -36,6 +36,12 @@ const Navbar = styled.div`
   a:active {
     color: #777;
   }
+
+  @media (max-width: 411px) {
+    .intro {
+      display: none;
+    }
+  }
 `;
 
 function NavbarStyled() {
@@ -57,7 +63,7 @@ function NavbarStyled() {
     <Navbar>
       <img src={data.avatar_url} alt="avatar" className="avatar" />
       <big>{data.name}</big>
-      <span>Happy developer</span>
+      <span className="intro">Happy developer</span>
       <a
         target="_blank"
         rel="noreferrer"

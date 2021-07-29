@@ -58,7 +58,7 @@ function ContentStyled() {
           <span className="title">
             <FontAwesomeIcon icon={faMedium} /> What I do
           </span>
-          <span>I develop web and stuff, Blog writer at Medium.com</span>
+          <span>I develop web and stuff, Blog writer at Medium</span>
         </Card>
       </a>
       <a
@@ -68,10 +68,10 @@ function ContentStyled() {
       >
         <Card>
           <span className="title">
-            <FontAwesomeIcon icon={faGithub} /> GitHub activities
+            <FontAwesomeIcon icon={faGithub} /> GitHub
           </span>
           <span>
-            [22/7/2021] Created new branch on littleboycoding/raindrop
+            Let's build something together
           </span>
         </Card>
       </a>
