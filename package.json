@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.11",
+    "gh-pages": "^3.2.3",
     "react-snap": "^1.23.0"
   }
 }
