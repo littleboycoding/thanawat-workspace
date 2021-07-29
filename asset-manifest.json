@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thanawat-workspace/static/css/main.aacf4d10.chunk.css",
+    "main.js": "/thanawat-workspace/static/js/main.4fcefcdc.chunk.js",
+    "main.js.map": "/thanawat-workspace/static/js/main.4fcefcdc.chunk.js.map",
+    "runtime-main.js": "/thanawat-workspace/static/js/runtime-main.09843377.js",
+    "runtime-main.js.map": "/thanawat-workspace/static/js/runtime-main.09843377.js.map",
+    "static/js/2.fbb65b43.chunk.js": "/thanawat-workspace/static/js/2.fbb65b43.chunk.js",
+    "static/js/2.fbb65b43.chunk.js.map": "/thanawat-workspace/static/js/2.fbb65b43.chunk.js.map",
+    "static/js/3.fa7f62ff.chunk.js": "/thanawat-workspace/static/js/3.fa7f62ff.chunk.js",
+    "static/js/3.fa7f62ff.chunk.js.map": "/thanawat-workspace/static/js/3.fa7f62ff.chunk.js.map",
+    "index.html": "/thanawat-workspace/index.html",
+    "static/css/main.aacf4d10.chunk.css.map": "/thanawat-workspace/static/css/main.aacf4d10.chunk.css.map",
+    "static/js/2.fbb65b43.chunk.js.LICENSE.txt": "/thanawat-workspace/static/js/2.fbb65b43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09843377.js",
+    "static/js/2.fbb65b43.chunk.js",
+    "static/css/main.aacf4d10.chunk.css",
+    "static/js/main.4fcefcdc.chunk.js"
+  ]
+}
